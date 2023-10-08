@@ -111,6 +111,8 @@ const i18n = new(require('i18n-2'))({
 });
 
 var peers = ['https://pandanite.net'];
+var peers = ['http://94.130.69.234:6002'];
+var peers = ['http://65.108.201.144:3005'];
 var randomPeer = randomIntFromInterval(0, (peers.length - 1));
 var selectedPeer = peers[randomPeer];
 var isConnected = false
