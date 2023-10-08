@@ -67,6 +67,7 @@ db.settings.ensureIndex({
 const localesObject = {
     'en': 'English',
     'id': 'Bahasa Indonesia',
+	'cs': 'Čeština',
     'es': 'Español (Internacional)',
     'fr': 'Français',
     'tl': 'Filipino',
@@ -98,7 +99,7 @@ const localesObject = {
     'zh-CN': '简体中文',
     'zh-TW': '繁體中文',
     'ko': '한국어'
-};
+	};
 
 const availableLocales = Object.keys(localesObject);
 
